@@ -16,7 +16,8 @@ defmodule HotelSearch.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     [
-      {:scrape, "~> 2.0"}
+      {:scraper, "~> 0.1.1"},
+      {:httpoison, "~> 1.0"}
     ]
   end
 end
